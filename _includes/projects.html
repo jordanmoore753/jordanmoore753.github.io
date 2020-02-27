@@ -1,0 +1,36 @@
+<section id="projects">
+  {% for project in site.data.projects %}
+    {% if project != site.data.projects.first %}
+      <hr class="divider">
+    {% endif %}
+    <aside class="project-info">
+      <a href="{{ project.site-link }}" class="project-item">{{ project.name }}</a>
+      <p class="project-paragraph">{{ project.description }}</p>
+      <ul class="project-links">
+        <li class="spec-item">
+          <a href="{{ project.gh-link }}">
+            <i class="fa fa-github"></i>
+            Repository
+          </a>
+        </li>
+      {% if project.post-link %}
+        <li class="spec-item">
+          <a href="{{ project.post-link }}">
+            <i class="fa fa-book"></i>
+            Writing
+          </a>
+        </li>      
+      {% endif %}
+      {% if project.development == true %}
+        <li class="spec-item">
+          <a href="#"><span class="tag is-warning">Development</span></a>
+        </li>
+      {% else %}
+        <li class="spec-item">
+          <a href="#"><span class="tag is-primary">Production</span></a>
+        </li>
+      {% endif %}
+      </ul>
+    </aside>
+  {% endfor %}
+</section>

@@ -1,29 +1,153 @@
-.current {
-  color: green;
+body {
+  font-size: 1.1rem;
+  font-family: monospace;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
+main {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 50px;
+}
+
+.project-info {
+  margin-bottom: 50px;
+  color: black;
+}
+
+.project-item {
+  color: black;
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  transition: .3s;
+}
+
+.project-item:hover {
+  color: #ff007f;
+}
+
+.project-paragraph {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  color: black;
+  font-size: 1rem;
+  list-style-type: none;
   width: 100%;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 15px;
 }
 
-@media (min-width: 1000px) {
-  .navbar a {
-    float: left;
+.spec-item {
+  display: inline;
+  margin-right: 10px;
+  float: left;
+}
+
+.project-links a {
+  color: black;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.project-links a:hover {
+  color: #ff007f;
+}
+
+i {
+  padding: 0 5px;
+}
+
+.project-links li div {
+  display: inline;
+  font-size: 1.1rem;
+}
+
+#navigation {
+  border-bottom: 1px solid lightgray;
+}
+
+#picture-and-heading img {
+  display: block;
+  width: 256px;
+  height: 256px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#picture-and-heading h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#picture-and-heading p {
+  padding: 5px 0;
+  text-align: left;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.divider {
+  background-color: #ff007f;
+  size: 3px;
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.big-divider {
+  background-color: lightgray;
+  size: 2px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 1200px) {
+  main {
     display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.1rem;
-    transition: .3s;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 100px;
   }
 
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+  #navigation {
+    border-bottom: 0;
+  }
+
+  #picture-and-heading img {
+    float: left;
+    width: 256px;
+    height: 256px;
+    border-radius: 5px;
+    margin: 10px 10px 0 0;
+    box-sizing: border-box;
+  }
+
+  #picture-and-heading h1 {
+    margin: 0px 10px 0 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  #picture-and-heading p {
+    font-weight: normal;
+    font-size: 1.2rem;
+    padding: 5px 0;
+  }
+
+  .divider {
+    margin-top: 40px;
   }
 }

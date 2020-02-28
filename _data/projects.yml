@@ -4,7 +4,6 @@
   description: <strong>DS-Plus</strong> gives developers the ability to use alternative data structures in <em>JavaScript</em>, like Graphs, AVL Trees, and more. 
   lang: JavaScript
   frame: NodeJS
-  db: PostgreSQL
 - name: Botanist
   gh-link: https://github.com/jordanmoore753/PlantDaddy
   site-link: https://botanist-jm.herokuapp.com
@@ -12,6 +11,7 @@
   description: For Botanists of all skill levels and enthusiasm, <strong>Botanist</strong> is the go-to application. One can peruse over 380,000 species of plants, mark their location using the <em>MapQuest</em> API, keep track of field notes, analyze growth patterns and data, and more. 
   lang: JavaScript
   frame: NodeJS
+  db: PostgreSQL
 - name: Testy
   development: true
   gh-link: https://github.com/jordanmoore753/Testy

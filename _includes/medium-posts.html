@@ -1,13 +1,11 @@
 <section id="medium-posts">
   <h1>Articles</h1>
-  <hr class="tiny-hr">
   <ul>
   {% for item in site.data.medium-posts %}
     <li>
       <a class="article-heading" href="{{ item.link }}">{{ item.name }}</a>
     </li>
     <p class="article-publisher">{{ item.publisher }}</p>
-    <hr class="divider">
   {% endfor %}    
   </ul>
 </section>

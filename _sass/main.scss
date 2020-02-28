@@ -17,9 +17,8 @@ main a {
 
 .project-head {
   font-size: 1.9rem;
-  margin-bottom: 15px; 
+  margin-bottom: 25px; 
   color: black;
-  text-align: center;
   margin-top: 20px;
 }
 
@@ -52,17 +51,19 @@ footer {
 }
 
 #medium-posts h1 {
-  font-size: 1.8rem;
-  margin-bottom: 5px;
-  text-align: center;
-  margin-top: 20px;
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+  margin-top: 40px;
   color: black;
 }
 
+#medium-posts p {
+  margin-bottom: 10px;
+}
+
 .blog-sec h1 {
-  font-size: 1.8rem;
-  margin-bottom: 5px;
-  text-align: center; 
+  font-size: 1.9rem;
+  margin-bottom: 20px;
   margin-top: 35px;
   color: black;
 }
@@ -91,7 +92,7 @@ footer {
 }
 
 .project-info {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: black;
 }
 
@@ -174,21 +175,20 @@ i {
   border-bottom: 1px solid lightgray;
 }
 
-#picture-and-heading img {
-  display: block;
-  width: 256px;
-  height: 330px;
-  border-radius: 5px;
-  box-sizing: border-box;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  box-shadow: 1px 1px black;
-}
+// #picture-and-heading img {
+//   display: block;
+//   width: 256px;
+//   height: 330px;
+//   border-radius: 5px;
+//   box-sizing: border-box;
+//   margin: 0 auto;
+//   margin-bottom: 10px;
+//   box-shadow: 1px 1px black;
+// }
 
 #picture-and-heading h1 {
   font-size: 1.5rem;
   font-weight: bold;
-  text-align: center;
 }
 
 #picture-and-heading p {

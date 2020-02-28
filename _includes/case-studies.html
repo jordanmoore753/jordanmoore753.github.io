@@ -1,0 +1,11 @@
+<section class="blog-sec">
+  <h1>Case Studies</h1>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a class='article-heading' href="{{ post.url }}">{{ post.title }}</a>
+        <p class="snippet">{{ post.snippet }}</p>
+      </li>
+    {% endfor %}
+  </ul>  
+</section>

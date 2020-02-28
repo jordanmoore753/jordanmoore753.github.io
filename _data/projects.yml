@@ -14,8 +14,7 @@
   frame: NodeJS
 - name: Testy
   development: true
-  gh-link: ''
-  post-link: ''
+  gh-link: https://github.com/jordanmoore753/Testy
   description: <strong>Testy</strong> is a minimalist testing framework. It's only goal is to provide developers the simplest TDD experience. I believe it does exactly that. 
   lang: JavaScript
   frame: NodeJS

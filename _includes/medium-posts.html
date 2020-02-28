@@ -1,0 +1,11 @@
+<section id="medium-posts">
+  <h1><em>Medium</em></h1>
+  <ul>
+  {% for item in site.data.medium-posts %}
+    <li>
+      <a class="article-heading" href="{{ item.link }}">{{ item.name }}</a>
+    </li>
+    <p class="article-publisher">{{ item.publisher }}</p>
+  {% endfor %}    
+  </ul>
+</section>

@@ -2,11 +2,32 @@ body {
   font-family: monospace;
 }
 
+// #botanist {
+//   border-bottom: 1px solid black;
+// }
+
 main {
   display: block;
   margin: 0 auto;
   width: 90%;
   margin-top: 50px;
+}
+
+main ul {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+main a {
+  color: darkblue;
+  text-decoration: none;
+  transition: .3s;
+}
+
+main a:hover {
+  color: #ff007f;
 }
 
 main h1 {
@@ -20,6 +41,13 @@ main h2 {
   font-size: 1.7rem;
   font-weight: bold;
   margin-bottom: 15px;
+}
+
+main h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 main p {
@@ -91,6 +119,10 @@ footer {
     margin: 0 auto;
     width: 50%;
     margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  main h3 {
     margin-bottom: 5px;
   }
 }

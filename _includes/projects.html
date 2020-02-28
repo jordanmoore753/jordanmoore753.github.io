@@ -9,13 +9,29 @@
       <ul class="project-links">
       {% if project.development == true %}
         <li class="spec-item">
-          <a href="#"><span class="tag is-warning">Development</span></a>
+          <a href="#"><span class="tag is-light">Development</span></a>
         </li>
       {% else %}
         <li class="spec-item">
           <a href="#"><span class="tag is-primary">Production</span></a>
         </li>
       {% endif %}
+      {% if project.lang == 'JavaScript' %}
+        <li class="spec-item">
+          <a href="#"><span class="tag is-warning">JavaScript</span></a>
+        </li>
+      {% else %}
+        <li class="spec-item">
+          <a href="#"><span class="tag is-danger">Ruby</span></a>
+        </li>
+      {% endif %}
+      {% if project.db == 'PostgreSQL' %}
+        <li class="spec-item">
+          <a href="#"><span class="tag is-dark">PostgreSQL</span></a>
+        </li>
+      {% endif %}
+      </ul>
+      <ul class="project-links">
         <li class="spec-item">
           <a href="{{ project.gh-link }}">
             <i class="fa fa-github"></i>

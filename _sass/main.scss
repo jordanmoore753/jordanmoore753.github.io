@@ -10,6 +10,15 @@ main {
   margin-top: 50px;
 }
 
+main a {
+  color: hsl(171, 100%, 41%);
+  transition: .3s;
+}
+
+main a:hover {
+  color: #ff007f;
+}
+
 footer {
   display: block;
   margin: 0 auto;
@@ -21,13 +30,26 @@ footer {
 }
 
 .footer-msg {
+  display: none;
+  padding-top: 20px;
   text-align: center;
-  padding-bottom: 15px;
-  padding-top: 15px;
+}
+
+.footer-msg a {
+  color: hsl(171, 100%, 41%);
+  transition: .3s;
+}
+
+.footer-msg a:hover {
+  color: #ff007f;
+}
+
+.footer-links a:hover {
+  color: #ff007f;
 }
 
 .project-info {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: black;
 }
 
@@ -57,6 +79,28 @@ footer {
   text-align: center;
   padding-bottom: 10px;
   margin-top: 15px;
+  display: block;
+  height: 25px;
+}
+
+.footer-links {
+  color: black;
+  font-size: 1rem;
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  padding: 10px 10px;
+  margin-top: 1px;
+  display: block;
+  height: 25px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  transition: .3s;
 }
 
 .spec-item {
@@ -91,11 +135,12 @@ i {
 #picture-and-heading img {
   display: block;
   width: 256px;
-  height: 256px;
+  height: 330px;
   border-radius: 5px;
   box-sizing: border-box;
   margin: 0 auto;
   margin-bottom: 10px;
+  box-shadow: 1px 1px black;
 }
 
 #picture-and-heading h1 {
@@ -115,8 +160,6 @@ i {
   background-color: #ff007f;
   size: 3px;
   width: 50px;
-  margin-top: 20px;
-  margin-bottom: 40px;
 }
 
 .big-divider {
@@ -165,7 +208,12 @@ i {
     margin-bottom: 5px;
   }
 
+  .footer-links {
+    display: none;
+  }
+
   .footer-msg {
+    display: block;
     text-align: center;
   }
 
@@ -176,7 +224,7 @@ i {
   #picture-and-heading img {
     float: left;
     width: 256px;
-    height: 256px;
+    height: 330px;
     border-radius: 5px;
     margin: 10px 10px 0 0;
     box-sizing: border-box;
@@ -196,6 +244,6 @@ i {
   }
 
   .divider {
-    margin-top: 40px;
+
   }
 }

@@ -2,21 +2,33 @@
   gh-link: https://github.com/jordanmoore753/DS-Plus
   site-link: https://jordanmoore753.github.io/DS-Plus/ 
   description: <strong>DS-Plus</strong> gives developers the ability to use alternative data structures in <em>JavaScript</em>, like Graphs, AVL Trees, and more. 
+  lang: JavaScript
+  frame: NodeJS
+  db: PostgreSQL
 - name: Botanist
   gh-link: https://github.com/jordanmoore753/PlantDaddy
   site-link: https://botanist-jm.herokuapp.com
   post-link: /2020/02/27/botanist.html
   description: For Botanists of all skill levels and enthusiasm, <strong>Botanist</strong> is the go-to application. One can peruse over 380,000 species of plants, mark their location using the <em>MapQuest</em> API, keep track of field notes, analyze growth patterns and data, and more. 
+  lang: JavaScript
+  frame: NodeJS
 - name: Testy
   development: true
   gh-link: ''
   post-link: ''
   description: <strong>Testy</strong> is a minimalist testing framework. It's only goal is to provide developers the simplest TDD experience. I believe it does exactly that. 
+  lang: JavaScript
+  frame: NodeJS
 - name: Stardew Valley Crop Assistant
   gh-link: https://github.com/jordanmoore753/Stardew-Crop-Planner
   site-link: https://stardew-valley-crop-assistant.herokuapp.com/
   description: <strong>Stardew Valley Crop Assistant</strong> is an application for planning one's farm over a standard game year in the game <em>Stardew Valley</em>. It features a wiki of all known plants in the game, in addition to an interactive calendar for planting and picking crops which also calculates seasonal profits. 
+  lang: Ruby
+  frame: Sinatra
+  db: PostgreSQL
 - name: EasyPortfolio
   gh-link: https://github.com/jordanmoore753/EasyPortfolio
   site-link: https://rubygems.org/gems/easy_portfolio
   description: Sometimes, back-end developers don't feel like coding the front-end of an application, let alone their own portfolio site. This is where <strong>EasyPortfolio</strong> comes into play; this application allows one to create a <em>Sinatra</em>-powered portfolio skeleton with media-first design.
+  lang: Ruby
+  frame: Sinatra

@@ -1,0 +1,133 @@
+$text-color: #333333;
+$link-color: #0077C8;
+$project-tags: (development #999999, production #48A239, javascript #F79A2C, ruby #F06767, postgresql #41A7D5);
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  line-height: 32px;
+  color: $text-color;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($link-color, 10);
+  }
+
+  &:visited {
+    color: $link-color;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.muted {
+  opacity: 0.6;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+main {
+  width: 640px;
+  margin: 4rem auto;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.6rem;
+
+  li {
+    display: inline-block;
+    margin-right: 24px;
+
+    a {
+      color: #bbbbbb;
+
+      &:hover {
+        color: #999999;
+      }
+    }
+  }
+}
+
+.projects,
+.project-tags,
+.project-links,
+.articles {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects {
+
+  > li {
+    margin-bottom: 3rem;
+  }
+}
+
+.project-name {
+  font-size: 1.5rem;
+}
+
+.project-tags {
+  margin-bottom: 1rem;
+
+  li {
+    display: inline-block;
+    line-height: 1.6rem;
+    padding: 0 7px;
+    margin-right: 4px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+
+    @each $project-tag in $project-tags {
+      &.tag-#{nth($project-tag, 1)} {
+        border: 1px solid lighten(nth($project-tag, 2), 10);
+        color: #{nth($project-tag, 2)};
+      }
+    }
+  }
+}
+
+.project-links {
+
+  li {
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 0.9rem;
+
+    a {
+      color: lighten($text-color, 20);
+    }
+  }
+}
+
+.article-name {
+  @extend .project-name;
+  margin-bottom: 0;
+}
+
+.articles {
+  li {
+    margin-bottom: 2rem;
+
+    p {
+      margin: 0;
+    }
+  }
+}

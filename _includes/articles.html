@@ -1,0 +1,11 @@
+<section>
+  <h2>Articles</h2>
+  <ul class="articles">
+    {% for item in site.data.articles %}
+      <li>
+        <a class="article-name" href="{{ item.link }}">{{ item.name }}</a>
+        <p>{{ item.publisher }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

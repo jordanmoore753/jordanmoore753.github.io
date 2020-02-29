@@ -1,11 +1,9 @@
-<aside class="project-info left">
-  <div class="heading-links">
+<ul class="social-icons">
   {% for item in site.data.footer-links %}
-    <a href="{{ item.link }}">
-      <span class="icon has-text-black">
+    <li>
+      <a href="{{ item.link }}">
         <i class="{{ item.icon }} big"></i>
-      </span>
-    </a>
+      </a>
+    </li>
   {% endfor %}
-  </div>  
-</aside>
+</ul>

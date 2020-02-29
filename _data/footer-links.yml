@@ -1,12 +1,12 @@
-- name: LinkedIn
-  link: https://www.linkedin.com/in/jordan-moore-41ba011a3/
-  icon: fa fa-linkedin
+- name: Email
+  link: mailto:jordanmoore753@gmail.com
+  icon: fa fa-envelope
 - name: Github
   link: https://github.com/jordanmoore753
   icon: fa fa-github
 - name: Medium
   link: https://medium.com/@jordanmoore753
   icon: fa fa-medium
-- name: Email
-  link: mailto:jordanmoore753@gmail.com
-  icon: fa fa-envelope
+- name: LinkedIn
+  link: https://www.linkedin.com/in/jordan-moore-41ba011a3/
+  icon: fa fa-linkedin

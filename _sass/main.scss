@@ -25,13 +25,9 @@ main a {
 .project-info.left {
   display: block;
   margin-top: 20px;
-  width: 250px;
-  border-radius: 3px;
-  box-shadow: 1px 1px rgb(225,225,220);
 }
 
 .heading-links {
-  background-color: rgb(237,237,237);
   padding: 15px 0;
 }
 
@@ -48,7 +44,7 @@ main a {
   color: #ff007f;
 }
 .fa.big {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .tiny-hr {
@@ -107,7 +103,7 @@ footer {
 }
 
 .footer-msg a {
-  color: hsl(171, 100%, 41%);
+  color: #00a890;
   transition: .3s;
 }
 
@@ -120,12 +116,12 @@ footer {
 }
 
 .project-info {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: black;
 }
 
 .project-item {
-  color: black;
+  color: #00a890;
   font-size: 1.5rem;
   margin-bottom: 40px;
   transition: .3s;
@@ -219,6 +215,7 @@ i {
   background-color: #ff007f;
   size: 3px;
   width: 50px;
+  margin-bottom: 10px;
 }
 
 .big-divider {

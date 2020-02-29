@@ -1,8 +1,6 @@
+<h1 class="project-head">Projects</h1>
 <section id="projects">
   {% for project in site.data.projects %}
-    {% if project != site.data.projects.first %}
-      <hr class="divider">
-    {% endif %}
     <aside class="project-info">
       <a href="{{ project.site-link }}" class="project-item">{{ project.name }}</a>
       <p class="project-paragraph">{{ project.description }}</p>

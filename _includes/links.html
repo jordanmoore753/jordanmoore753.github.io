@@ -1,0 +1,11 @@
+<aside class="project-info left">
+  <div class="heading-links">
+  {% for item in site.data.footer-links %}
+    <a href="{{ item.link }}">
+      <span class="icon has-text-black">
+        <i class="{{ item.icon }} big"></i>
+      </span>
+    </a>
+  {% endfor %}
+  </div>  
+</aside>

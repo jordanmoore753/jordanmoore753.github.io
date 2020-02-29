@@ -22,6 +22,35 @@ main a {
   margin-top: 20px;
 }
 
+.project-info.left {
+  display: block;
+  margin-top: 20px;
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 1px 1px rgb(225,225,220);
+}
+
+.heading-links {
+  background-color: rgb(237,237,237);
+  padding: 15px 0;
+}
+
+.heading-links a {
+  text-align: left;
+  margin-right: 30px;
+}
+
+.heading-links i {
+  transition: .3s;
+}
+
+.heading-links i:hover {
+  color: #ff007f;
+}
+.fa.big {
+  font-size: 24px;
+}
+
 .tiny-hr {
   background-color: lightgray;
   size: 2px;
@@ -73,7 +102,6 @@ footer {
 }
 
 .footer-msg {
-  display: none;
   padding-top: 20px;
   text-align: center;
 }
@@ -92,7 +120,7 @@ footer {
 }
 
 .project-info {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: black;
 }
 
@@ -175,17 +203,6 @@ i {
   border-bottom: 1px solid lightgray;
 }
 
-// #picture-and-heading img {
-//   display: block;
-//   width: 256px;
-//   height: 330px;
-//   border-radius: 5px;
-//   box-sizing: border-box;
-//   margin: 0 auto;
-//   margin-bottom: 10px;
-//   box-shadow: 1px 1px black;
-// }
-
 #picture-and-heading h1 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -250,10 +267,6 @@ i {
     margin-bottom: 5px;
   }
 
-  .footer-links {
-    display: none;
-  }
-
   .footer-msg {
     display: block;
     text-align: center;
@@ -273,7 +286,6 @@ i {
   }
 
   #picture-and-heading h1 {
-    margin: 0px 10px 0 10px;
     font-size: 2rem;
     font-weight: bold;
     text-align: left;
@@ -283,9 +295,5 @@ i {
     font-weight: normal;
     font-size: 1.2rem;
     padding: 5px 0;
-  }
-
-  .divider {
-
   }
 }

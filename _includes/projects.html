@@ -39,12 +39,21 @@
           </a>
         </li>
       {% if project.post-link %}
+        {% if project.name == 'DS-Plus' %}
         <li class="spec-item">
           <a href="{{ project.post-link }}">
             <i class="fa fa-book"></i>
-            Writing
+            Documentation
           </a>
-        </li>      
+        </li>
+        {% elsif project.post-link %}
+        <li class="spec-item">
+          <a href="{{ project.post-link }}">
+            <i class="fa fa-book"></i>
+            Case Study
+          </a>
+        </li>
+        {% endif %}
       {% endif %}
       </ul>
     </aside>

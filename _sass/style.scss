@@ -35,6 +35,18 @@ h2 {
   font-weight: normal;
 }
 
+.article {
+
+  h2 {
+    margin: 1rem 0 2rem;
+  }
+
+  p,
+  ul {
+    margin-bottom: 2rem;
+  }
+}
+
 .muted {
   opacity: 0.6;
 }

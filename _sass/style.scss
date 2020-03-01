@@ -1,3 +1,4 @@
+$gutter-width: 1rem;
 $text-color: #333333;
 $link-color: #0077C8;
 $project-tags: (development #999999, production #48A239, javascript #F79A2C, ruby #F06767, postgresql #41A7D5);
@@ -25,11 +26,13 @@ a {
 
 h1 {
   font-size: 2rem;
+  font-weight: normal;
 }
 
 h2 {
   font-size: 1.4rem;
   margin-bottom: 2rem;
+  font-weight: normal;
 }
 
 .muted {
@@ -38,24 +41,30 @@ h2 {
 
 section {
   margin-bottom: 4rem;
+  padding: 0 $gutter-width;
 }
 
 main {
-  width: 640px;
+  width: 100%;
   margin: 4rem auto;
+
+  @media only screen and (min-width: 640px) {
+    width: 640px;
+  }
 }
 
 .social-icons {
   list-style-type: none;
   padding: 0;
   font-size: 1.6rem;
+  line-height: 2.6rem;
 
   li {
     display: inline-block;
-    margin-right: 24px;
+    margin-right: 30px;
 
     a {
-      color: #bbbbbb;
+      color: #cccccc;
 
       &:hover {
         color: #999999;
@@ -130,4 +139,8 @@ main {
       margin: 0;
     }
   }
+}
+
+footer {
+  padding: 0 $gutter-width;
 }

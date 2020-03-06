@@ -13,12 +13,6 @@
   lang: JavaScript
   frame: NodeJS
   db: PostgreSQL
-- name: Testy
-  development: true
-  gh-link: https://github.com/jordanmoore753/Testy
-  description: <strong>Testy</strong> is a minimalist testing framework. It's only goal is to provide developers the simplest TDD experience. I believe it does exactly that. 
-  lang: JavaScript
-  frame: NodeJS
 - name: Stardew Valley Crop Assistant
   gh-link: https://github.com/jordanmoore753/Stardew-Crop-Planner
   site-link: https://stardew-valley-crop-assistant.herokuapp.com/

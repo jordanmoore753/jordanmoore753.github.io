@@ -1,3 +1,8 @@
+- name: Regexer
+  gh-link: https://github.com/jordanmoore753/JS-Ruby-Regex
+  site-link: https://regexer-js-rb.herokuapp.com/ 
+  description: <strong>Regexer</strong> is a Regex editor which evaluates Ruby and JavaScript expressions. This application is built with React, and makes use of a Sinatra-powered API to fetch Ruby results.  
+  lang: React
 - name: DS-Plus
   gh-link: https://github.com/jordanmoore753/DS-Plus
   site-link: https://jordanmoore753.github.io/DS-Plus/ 

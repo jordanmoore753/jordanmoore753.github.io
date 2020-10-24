@@ -1,8 +1,3 @@
-- name: Regexer
-  gh-link: https://github.com/jordanmoore753/JS-Ruby-Regex
-  site-link: https://regexer-js-rb.herokuapp.com/ 
-  description: <strong>Regexer</strong> is a Regex editor which evaluates Ruby and JavaScript expressions. This application is built with React, and makes use of a Sinatra-powered API to fetch Ruby results.  
-  lang: React
 - name: DS-Plus
   gh-link: https://github.com/jordanmoore753/DS-Plus
   site-link: https://jordanmoore753.github.io/DS-Plus/ 
@@ -10,14 +5,11 @@
   description: <strong>DS-Plus</strong> gives developers the ability to use alternative data structures in <em>JavaScript</em>, like Graphs, AVL Trees, and more. 
   lang: JavaScript
   frame: NodeJS
-- name: Botanist
-  gh-link: https://github.com/jordanmoore753/PlantDaddy
-  site-link: https://botanist-jm.herokuapp.com
-  post-link: /2020/02/27/botanist.html
-  description: For Botanists of all skill levels and enthusiasm, <strong>Botanist</strong> is the go-to application. One can peruse over 380,000 species of plants, mark their location using the <em>MapQuest</em> API, keep track of field notes, analyze growth patterns and data, and more. 
-  lang: JavaScript
-  frame: NodeJS
-  db: PostgreSQL
+- name: Regexer
+  gh-link: https://github.com/jordanmoore753/JS-Ruby-Regex
+  site-link: https://regexer-js-rb.herokuapp.com/ 
+  description: <strong>Regexer</strong> is a Regex editor that evaluates Ruby and JavaScript expressions. This application is built with React, and makes use of a Sinatra-powered API to fetch Ruby results.  
+  lang: React
 - name: Stardew Valley Crop Assistant
   gh-link: https://github.com/jordanmoore753/Stardew-Crop-Planner
   site-link: https://stardew-valley-crop-assistant.herokuapp.com/

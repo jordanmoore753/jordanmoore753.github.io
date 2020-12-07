@@ -1,8 +1,11 @@
 - name: An Introduction to Sliding Window Algorithms
   link: https://levelup.gitconnected.com/an-introduction-to-sliding-window-algorithms-5533c4fe1cc7?source=friends_link&sk=4a0555e334224718c125ef3ff0719229
   publisher: Level-Up Coding
-- name: How to Solve Two-Sum in JavaScript
-  link: https://levelup.gitconnected.com/how-to-solve-two-sum-in-javascript-d1ebd9dfd3d3?source=friends_link&sk=4bcb9a35fae9154ef55456d2fccede9b
+- name: An Introduction to Bottom-Up Dynamic Programming
+  link: https://medium.com/javascript-in-plain-english/an-introduction-to-bottom-up-dynamic-programming-992fa2a8c11f?source=friends_link&sk=30b492c535b0f3b9dad1a8f9fe25884f
+  publisher: JavaScript in Plain English
+- name: How to Implement CSRF Tokens in Express
+  link: https://levelup.gitconnected.com/how-to-implement-csrf-tokens-in-express-f867c9e95af0?sk=5bf4786cf12c12bcafe24e9bcc134507
   publisher: Level-Up Coding
 - name: The Definitive Guide for Creating Ruby Gems
   link: https://medium.com/better-programming/the-definitive-guide-for-creating-ruby-gems-2663a3f581ce?source=friends_link&sk=2e6ba9fca58ecb19b288a1d69ccc15d2
@@ -10,6 +13,9 @@
 - name: Storing Objects in YAML with Ruby
   link: https://medium.com/launch-school/storing-objects-in-yaml-with-ruby-d02c60e0dc65?source=friends_link&sk=726e1a2f2465916ae1d72377d1c291a3
   publisher: Launch School
-- name: Closures, Private Data, and Inheritance in JavaScript
-  link: https://levelup.gitconnected.com/inheritance-private-data-and-closures-in-javascript-5618bc78ebf2?source=friends_link&sk=d3021d4a0bf96f7fb462f7b586202606
+- name: How to Solve Two-Sum in JavaScript
+  link: https://levelup.gitconnected.com/how-to-solve-two-sum-in-javascript-d1ebd9dfd3d3?source=friends_link&sk=4bcb9a35fae9154ef55456d2fccede9b
   publisher: Level-Up Coding
+- name: How to Solve Permutations in JavaScript
+  link: https://medium.com/javascript-in-plain-english/how-to-solve-permutations-in-javascript-502cc4522482?sk=1170581943e4495264d854fe0bc8deea
+  publisher: JavaScript in Plain English

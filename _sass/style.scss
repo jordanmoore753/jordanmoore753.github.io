@@ -9,6 +9,10 @@ body {
   font-size: 18px;
   line-height: 32px;
   color: $text-color;
+  
+  @media only screen and (min-width: 640px) {
+    background-color: #ededed;
+  }
 }
 
 a {
@@ -59,9 +63,12 @@ section {
 main {
   width: 100%;
   margin: 4rem auto;
+  background-color: white;
 
   @media only screen and (min-width: 640px) {
-    width: 640px;
+    width: 800px;
+    box-shadow: 1px 1px 10px 1px lightgray;
+    padding: 30px;
   }
 }
 
@@ -131,7 +138,7 @@ main {
   li {
     display: inline-block;
     margin-right: 12px;
-    font-size: 0.9rem;
+    font-size: 1rem;
 
     a {
       color: lighten($text-color, 20);

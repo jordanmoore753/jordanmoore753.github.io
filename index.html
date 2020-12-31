@@ -1,7 +1,106 @@
----
-layout: default
-title: Jordan Moore
----
-{% include heading.html %}
-{% include projects.html %}
-{% include articles.html %}
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://opg.me/ns#">
+<head>
+  <title>Jordan Moore</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/stylesheets/style.css">
+  <meta name="title" property="og:title" content="Jordan Moore" />
+  <meta name="description" property="og:description" content="I'm a software engineer in Croton-on-Hudson, NY & co-founder of Satellite" />
+  <meta name="type" property="og:type" content="website" />
+  <meta name="url" property="og:url" content="https://jordanmoore.dev" />
+  <meta name="image" property="og:image" content="public/assets/images/floppy.png" />
+  <meta name="author" content="Jordan Moore" />
+  <!-- ICONS -->
+  <link rel="apple-touch-icon" sizes="180x180" href="public/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicons/floppy.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/favicons/floppy.png">
+  <link rel="manifest" href="public/favicons/site.webmanifest">
+  <link rel="mask-icon" href="public/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="public/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="public/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101231323);</script>
+  <script async src="//static.getclicky.com/js"></script>
+</head>
+<body>
+  <div class="logo-links">
+    <a href="https://github.com/jordanmoore753" target="_blank">
+      <img class="icon" src="public/assets/icons/git_hub.svg" alt="github logo" id="github-logo">
+    </a>
+    <a href="public/assets/jordan-moore.pdf" target="_blank">
+      <img class="icon" src="public/assets/icons/resume.svg" alt="link to Jordan Moore resume" id="resume-logo">
+    </a>
+    <a href="https://www.linkedin.com/in/jordan-moore-41ba011a3/" target="_blank">
+      <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Jordan Moore LinkedIn" id="linkedin-logo">
+    </a>
+  </div>
+  <main>
+    <section id="intro" class="flexbox horz-center">
+      <img id="avatar" class="profile" src="public/assets/images/jordan-actual-pic.jpg" alt="photo of Jordan Moore">
+      <h1 class="profile-name">Jordan Moore</h1>
+      <p class="intro-p-1">I'm a software engineer in Croton-on-Hudson, NY, who builds containerized backend systems.</p>
+      <p class="intro-p-2">I recently co-founded <a class="satellite" href="https://satellite-baas.github.io/">Satellite</a>, an open source, multi-instance, GraphQL backend-as-a-service that makes it easy for front-end developers to build and deploy applications.</p>
+    </section>
+
+    <section id="satellite" class="flexbox horz-center">
+      <div id="satellite-title-container" class="flexbox">
+        <a href="https://satellite-baas.github.io/"><img id="satellite-logo" src="public/assets/images/logo-banner.png" alt="satellite logo" /></a>
+      </div>
+      <div id="satellite-info-container" class="flexbox">
+        <div>
+          <a href="https://satellite-baas.github.io/">
+            <img id="setup-command-gif" src="public/assets/gifs/spin-up-satellite.gif" alt="A gif showing the spinning up of a satellite" />
+          </a>
+        </div>
+        <div class="flexbox horz-center">
+          <p><a class="satellite" href="https://satellite-baas.github.io/#home">Satellite</a> is an open source, GraphQL backend-as-a-service that makes it easy for frontend developers to build and deploy applications. Satellite is built with Node.js, Docker, Nginx, and Dgraph, and uses Kubernetes in a multi-instance, container-orchestrated infrastructure.</p>
+          <p>Satellite offers an easy-to-use GUI and automatically provides a GraphQL API to power your application.</p>
+          <a id="satellite-repo-btn" class="btn" target="_blank" href="https://satellite-baas.github.io/#case-study">View Case Study</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="flexbox horz-center">
+        <h2>Other projects</h2>
+        <ul class="flexbox vert-center">
+          <li>
+            <img src="public/assets/images/ds-1.png" alt="Screenshot of DS-Plus" />
+            <h4>DS-Plus</h4>
+            <p>An NPM package that provides JavaScript users with non-native data structures, like AVL Trees, Graphs, and Linked Lists.</p>
+          </li>
+          <li>
+            <img src="public/assets/images/regex-2.png" alt="Screenshot of Regexer application" />
+            <h4>Regexer</h4>
+            <p>An application that allows users to evaluate regex expressions in JavaScript and Ruby.</p>
+          </li>
+
+        </ul>
+      </section>
+    <section id="contact" class="flexbox horz-center">
+      <!-- <h3>Contact</h3> -->
+      <h4><a href="mailto:jordanmoore753@gmail.com">jordanmoore753@gmail.com</a></h4>
+      <ul class="flexbox vert-center">
+        <li>
+          <a href="public/assets/jordan-moore.pdf" target="_blank">
+            <img class="icon" src="public/assets/icons/resume.svg" alt="link to Jordan Moore resume">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/jordanmoore753" target="_blank">
+            <img class="icon" src="public/assets/icons/git_hub.svg" alt="link to Jordan Moore GitHub">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jordan-moore-41ba011a3/" target="_blank">
+            <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Jordan Moore LinkedIn">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

@@ -404,6 +404,14 @@ div > iframe {
   left: 5px;
 }
 
+#medium-logo {
+  cursor: pointer;
+  width: 35px;
+  position: fixed;
+  top: 155px;
+  left: 5px;
+}
+
 #contact {
   padding-top: 50px;
   background: #f7f7f7;
